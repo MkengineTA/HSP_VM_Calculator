@@ -19,19 +19,6 @@ The tool provides calculations for:
   - pandas
   - numpy
 
-## Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/hsp-gcvol-calculator.git
-cd hsp-gcvol-calculator
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
 ## Input Files
 
 The tool requires two Excel files:
