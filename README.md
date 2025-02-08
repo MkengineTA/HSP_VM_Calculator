@@ -30,11 +30,11 @@ The tool requires two Excel files:
 ### Molar Volume Calculation
 The molar volume is calculated using the GCVOL method, which uses group contributions and temperature-dependent parameters:
 
-V_mol = Σ(n_i * (A<sub>i</sub> + B<sub>i</sub> * T * 10<sup>-3</sup> + C<sub>i</sub> * T<sup>2</sup> * 10<sup>-5</sup>))
+V_mol = Σ(n<sub>i</sub> * (A<sub>i</sub> + B<sub>i</sub> * T * 10<sup>-3</sup> + C<sub>i</sub> * T<sup>2</sup> * 10<sup>-5</sup>))
 
 where:
-- n_i: Number of groups of type i
-- A_i, B_i, C_i: GCVOL parameters
+- n<sub>i</sub>: Number of groups of type i
+- A<sub>i</sub>, B<sub>i</sub>, C<sub>i</sub>: GCVOL parameters
 - T: Temperature in Kelvin
 
 ### Hansen Solubility Parameters
