@@ -30,7 +30,7 @@ The tool requires two Excel files:
 ### Molar Volume Calculation
 The molar volume is calculated using the GCVOL method, which uses group contributions and temperature-dependent parameters:
 
-V_mol = Σ(n_i * (A_i + B_i*T*10<sup>-3</sup> + C_i*T<sup>2</sup>*10<sup>-5</sup>))
+V_mol = Σ(n_i * (A_i + B_i * T * 10<sup>-3</sup> + C_i * T<sup>2</sup> * 10<sup>-5</sup>))
 
 where:
 - n_i: Number of groups of type i
