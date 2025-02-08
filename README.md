@@ -48,16 +48,4 @@ The three HSP components are calculated using:
 
 This implementation is based on the methodology described in:
 - Mathieu, D. "Pencil and Paper Estimation of Hansen Solubility Parameters". ACS Omega, 2018, 3 (12)
-- The GCVOL method for molar volume calculations
-
-## License
-
-[Add your chosen license here]
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Contact
-
-[Add your contact information here]
+- Ihmels, E. C.; Gmehling, J. "Extension and Revision of the Group Contribution Method GCVOL for the Prediction of Pure Compound Liquid Densities". Ind. Eng. Chem. Res., 2002, 42 (2)
