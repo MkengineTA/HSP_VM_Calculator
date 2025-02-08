@@ -25,28 +25,6 @@ The tool requires two Excel files:
 1. `GCVOL_Gruppebeiträge.xlsx`: Contains GCVOL group contribution parameters
 2. `Database2.xlsx`: Contains substance database
 
-## Usage
-
-The program accepts input through standard input in CSV format with the following structure:
-```
-substance_name,SMILES,temperature
-```
-
-Example usage:
-```bash
-echo "ethanol,CCO,298.15" | python hsp_calculator.py
-```
-
-Output format:
-```
-substance_name  δD     δP     δH     Vm
-```
-where:
-- δD: Dispersive component (MPa^0.5)
-- δP: Polar component (MPa^0.5)
-- δH: Hydrogen bonding component (MPa^0.5)
-- Vm: Molar volume (cm³/mol)
-
 ## Methodology
 
 ### Molar Volume Calculation
