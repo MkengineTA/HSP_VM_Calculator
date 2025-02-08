@@ -1,6 +1,6 @@
 # Combined Hansen Solubility Parameters and GCVOL Calculator
 
-This Python tool calculates Hansen Solubility Parameters (HSP) using the GCVOL method for molar volume calculations. It combines and extends the work presented in "Pencil and Paper Estimation of Hansen Solubility Parameters" (Mathieu, ACS Omega, 2018) with additional functionality for molar volume estimation.
+This Python tool calculates Hansen Solubility Parameters (HSP) using the GCVOL method for molar volume calculations. It combines and extends the Python code presented in "Pencil and Paper Estimation of Hansen Solubility Parameters" (Mathieu, ACS Omega, 2018) with additional functionality for molar volume estimation.
 
 ## Overview
 
