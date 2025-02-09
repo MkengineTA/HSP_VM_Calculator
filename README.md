@@ -1,6 +1,6 @@
 # Combined Hansen Solubility Parameters and GCVOL Calculator
 
-This Python tool calculates Hansen Solubility Parameters (HSP) using the GCVOL method for molar volume calculations. It combines and extends the Python code presented in "Pencil and Paper Estimation of Hansen Solubility Parameters" (Mathieu, ACS Omega, 2018) with additional functionality for molar volume estimation.
+This Python tool calculates Hansen Solubility Parameters (HSP) using the GCVOL method for molar volume calculations. It extends and modifies the original Python code for HSP calculations from "Pencil and Paper Estimation of Hansen Solubility Parameters" (Mathieu, ACS Omega, 2018) by integrating the GCVOL method for improved molar volume estimation.
 
 ## Overview
 
@@ -22,8 +22,8 @@ The tool provides calculations for:
 ## Input Files
 
 The tool requires two Excel files:
-1. `GCVOL_Gruppebeiträge.xlsx`: Contains GCVOL group contribution parameters
-2. `Database2.xlsx`: Contains substance database
+1. `GCVOL_Group_Contributions.xlsx`: Contains GCVOL group contribution parameters
+2. `Database.xlsx`: Contains substance database
 
 ## Methodology
 
@@ -44,8 +44,17 @@ The three HSP components are calculated using:
 2. Polar (δP): Using group contribution method
 3. Hydrogen bonding (δH): Using group contribution method
 
-## Credits
+## Attribution and Credits
+This software is based on and extends two key methodologies:
 
-This implementation is based on the methodology described in:
-- Mathieu, D. "Pencil and Paper Estimation of Hansen Solubility Parameters". ACS Omega, 2018, 3 (12)
-- Ihmels, E. C.; Gmehling, J. "Extension and Revision of the Group Contribution Method GCVOL for the Prediction of Pure Compound Liquid Densities". Ind. Eng. Chem. Res., 2002, 42 (2)
+### HSP Calculation Core:
+
+- Originally described in: Mathieu, D. "Pencil and Paper Estimation of Hansen Solubility Parameters". ACS Omega, 2018, 3 (12)
+- Core HSP calculation functions have been adapted from the original implementation
+- The original code has been modified under academic fair use for research purposes
+
+
+### GCVOL Method Integration:
+
+- Based on: Ihmels, E. C.; Gmehling, J. "Extension and Revision of the Group Contribution Method GCVOL for the Prediction of Pure Compound Liquid Densities". Ind. Eng. Chem. Res., 2002, 42 (2)
+- Implementation of temperature-dependent molar volume calculations
