@@ -22,8 +22,17 @@ The tool provides calculations for:
 ## Input Files
 
 The tool requires two Excel files:
-1. `GCVOL_Group_Contributions.xlsx`: Contains GCVOL group contribution parameters
+1. `GCVOL_Group_Contributions.xlsx`: Contains GCVOL group contribution parameters (part of this repository)
 2. `Database.xlsx`: Contains substance database
+
+The tool requires Database.xlsx to contain your compounds data with the following columns:
+
+Column A: Name/identifier of the compound
+Column B: SMILES notation of the molecular structure
+Column C: Temperature in Kelvin
+
+Important Note:
+The identifier in Column A must match exactly with a compound name in the GCVOL table. The tool uses this identifier to look up the pre-calculated group contributions - it does not perform automatic group contribution analysis of the molecule. You need to manually determine the groups present in your molecule and ensure they match with an entry in the GCVOL table.
 
 ## Methodology
 
