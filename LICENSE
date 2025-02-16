@@ -25,10 +25,10 @@ This software includes and modifies code from the HSP calculation methods publis
 Mathieu, D. "Pencil and Paper Estimation of Hansen Solubility Parameters". ACS Omega, 2018, 3 (12)
 The original implementation has been:
 
-Modified to integrate GCVOL calculation methods
-Extended with additional functionality
-Restructured for improved usability
-Used under academic fair use for research purposes
+- Modified to integrate GCVOL calculation methods
+- Extended with additional functionality
+- Restructured for improved usability
+- Used under academic fair use for research purposes
 
 If you use this code in your research, please cite both:
 
